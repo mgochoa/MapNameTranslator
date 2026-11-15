@@ -1,0 +1,6 @@
+# Build artifacts
+MapNameTranslator.zip
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#1d1812"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </radialGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171310"/>
+      <stop offset="100%" stop-color="#100d0a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- badge -->
+  <circle cx="256" cy="256" r="188" fill="url(#disc)"/>
+  <circle cx="256" cy="256" r="188" fill="none" stroke="#0CD29D" stroke-width="6"/>
+  <circle cx="256" cy="256" r="178" fill="none" stroke="#0CD29D" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- globe -->
+  <circle cx="256" cy="256" r="114" fill="none" stroke="#0CD29D" stroke-width="4" opacity="0.9"/>
+  <ellipse cx="256" cy="256" rx="114" ry="44" fill="none" stroke="#0CD29D" stroke-width="3.5" opacity="0.65"/>
+  <ellipse cx="256" cy="256" rx="44" ry="114" fill="none" stroke="#0CD29D" stroke-width="3.5" opacity="0.65"/>
+  <ellipse cx="256" cy="256" rx="80" ry="114" fill="none" stroke="#0CD29D" stroke-width="2" opacity="0.3"/>
+
+  <!-- mark -->
+  <text x="256" y="288" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="90" font-weight="bold" fill="#FFFFFF">Aa</text>
+</svg>

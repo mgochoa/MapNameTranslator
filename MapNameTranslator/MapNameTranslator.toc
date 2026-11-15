@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: MapNameTranslator
+## Notes: Translates the current map's name into your chosen languages — under the world map title, in the minimap, and when hovering zones.
+## Author: mgochoa
+## Version: 1.0.0
+## SavedVariables: MapNameTranslatorDB
+
+Data.lua
+Core.lua
